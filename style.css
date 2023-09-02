@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+  justify-content: center;
+  align-items: center;
+  background-color:#f8f8f8;
+}
+.container{
+    position:relative;
+    width: 100%;
+    display: grid;
+    max-width: 1040px;
+    margin: 50px;
+    left: 100px;
+    grid-template-columns:1fr 2fr;
+    height: 1200px;
+    margin-bottom: 5vh;
+}
+.left-container{
+  background-color: #f8f8f8;
+  position: relative;
+  padding: 35px;
+}
+img{
+  padding: 30px;
+}
+.contact div{
+  padding:6px;
+}
+.right-container{
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+  border-radius: 50px;
+}
+.skills ul{
+  padding: 23px;
+}
+.certificates ul{
+  padding: 23px;
+}
+.hobbies ul{
+  padding: 23px;
+}
